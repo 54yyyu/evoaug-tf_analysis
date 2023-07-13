@@ -60,7 +60,7 @@ def H5DataLoader(data_path, stage=None, lower_case=True, transpose=False, downsa
     if stage == "fit" or stage is None:
         with h5py.File(data_path, 'r') as dataset:
             x_train = np.array(dataset[x+'_train']).astype(np.float32)
-            y_train = np.array(dataset[y+'_train']).astype(np.float32).transpose()
+            y_train = np.array(dataset[y+'_train']).astype(np.float32) #.transpose()
             x_valid = np.array(dataset[x+'_valid']).astype(np.float32)
             if transpose:
                 x_train = np.transpose(x_train, (0,2,1))
@@ -68,13 +68,13 @@ def H5DataLoader(data_path, stage=None, lower_case=True, transpose=False, downsa
             if downsample:
                 x_train = x_train[:downsample]
                 y_train = y_train[:downsample]
-            y_valid = np.array(dataset[y+"_valid"].astype(np.float32)).transpose()
+            y_valid = np.array(dataset[y+"_valid"].astype(np.float32)) #.transpose()
 
     if stage == "test" or stage is None:
         with h5py.File(data_path, "r") as dataset:
             x_test = np.array(dataset[x+"_test"]).astype(np.float32)
             if transpose:
                 x_test = np.transpose(x_test, (0,2,1))
-            y_test = np.array(dataset[y+"_test"]).astype(np.float32).transpose()
+            y_test = np.array(dataset[y+"_test"]).astype(np.float32) #.transpose()
     
     return x_train, y_train, x_valid, y_valid, x_test, y_test
