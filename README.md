@@ -1,6 +1,6 @@
 # EvoAug-TF Analysis
 
-This repository performs the analysis from "   " by Yiyang Yu and Peter K Koo. Code in this repository is shared under the .... License. For additional information, see the [EvoAug-TF repository](https://github.com/54yyyu/evoaug-tf.git) and EvoAug-TF documentation on ...
+This repository performs the analysis from "   " by Yiyang Yu and Peter K Koo. Code in this repository is shared under the MIT License. For additional information, see the [EvoAug-TF repository](https://github.com/54yyyu/evoaug-tf.git) and EvoAug-TF documentation on ...
 
 
 #### Install:
