@@ -22,6 +22,7 @@ Note: For older versions of tensorflow, the Adam optimizer will need to be modif
 
 #### Example on Google Colab:
 
-- Example analysis: [https://colab.research.google.com/drive/1sCYAL133F1PPbn7aGOxeQTFW-6fpLo4r?authuser=1#scrollTo=bcXlZ57uncra](https://colab.research.google.com/drive/1sCYAL133F1PPbn7aGOxeQTFW-6fpLo4r?usp=sharing)
-- Example Ray Tune with Population Based Training: [https://colab.research.google.com/drive/1NG8DrELTdmZPOw0RmaeNky0DZ5m2jpXY?authuser=1#scrollTo=NqfTP34ZsqbE](https://colab.research.google.com/drive/1NG8DrELTdmZPOw0RmaeNky0DZ5m2jpXY?usp=sharing)
-- Example Ray Tune with Asynchronous Hyperband Algorithm: [https://colab.research.google.com/drive/1mzKeXKSfkEfe9o-P-MhqQokLoW7Dv-Jk?authuser=1#scrollTo=qofIghsSs7Kf](https://colab.research.google.com/drive/1mzKeXKSfkEfe9o-P-MhqQokLoW7Dv-Jk?usp=sharing)
+
+- Example analysis: https://colab.research.google.com/drive/1sCYAL133F1PPbn7aGOxeQTFW-6fpLo4r?usp=sharing
+- Example Ray Tune with Population Based Training: https://colab.research.google.com/drive/1NG8DrELTdmZPOw0RmaeNky0DZ5m2jpXY?usp=sharing
+- Example Ray Tune with Asynchronous Hyperband Algorithm: https://colab.research.google.com/drive/1mzKeXKSfkEfe9o-P-MhqQokLoW7Dv-Jk?usp=sharing
