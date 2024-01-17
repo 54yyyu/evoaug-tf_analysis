@@ -1,0 +1,7 @@
+python downsample_analysis.py ITD 10000
+python downsample_analysis.py ITD 25000
+python downsample_analysis.py ITD 50000
+python downsample_analysis.py ITD 100000
+python downsample_analysis.py ITD 200000
+python downsample_analysis.py ITD 300000
+python downsample_analysis.py ITD 402278

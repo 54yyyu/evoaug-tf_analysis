@@ -1,12 +1,7 @@
 # EvoAug-TF Analysis
 
-This repository performs the analysis from "   " by Yiyang Yu and Peter K Koo. Code in this repository is shared under the MIT License. For additional information, see the [EvoAug-TF repository](https://github.com/54yyyu/evoaug-tf.git) and EvoAug-TF documentation on ...
+This repository performs the analysis from "EvoAug-TF: Extending evolution-inspired data augmentations for genomic deep learning to TensorFlow" by Yiyang Yu, Shivani Muthukumar and Peter Koo. Code in this repository is shared under the MIT License. For additional information, see the [EvoAug-TF repository](https://github.com/p-koo/evoaug-tf.git) and EvoAug-TF documentation on [ReadtheDocs](https://evoaug-tf.readthedocs.io)
 
-
-#### Install:
-```
-pip install git+https://github.com/54yyyu/evoaug-tf_analysis.git
-```
 
 #### Dependencies:
 ```
@@ -19,6 +14,7 @@ numpy 1.21.6
 ```
 
 Note: For older versions of tensorflow, the Adam optimizer will need to be modified accordingly as the arguments has changed from version 2.8
+
 
 #### Example on Google Colab:
 
