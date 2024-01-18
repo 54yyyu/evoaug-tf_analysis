@@ -19,6 +19,5 @@ Note: For older versions of tensorflow, the Adam optimizer will need to be modif
 #### Example on Google Colab:
 
 
-- Example analysis: https://colab.research.google.com/drive/1sCYAL133F1PPbn7aGOxeQTFW-6fpLo4r?usp=sharing
-- Example Ray Tune with Population Based Training: https://colab.research.google.com/drive/1NG8DrELTdmZPOw0RmaeNky0DZ5m2jpXY?usp=sharing
-- Example Ray Tune with Asynchronous Hyperband Algorithm: https://colab.research.google.com/drive/1mzKeXKSfkEfe9o-P-MhqQokLoW7Dv-Jk?usp=sharing
+- Example DeepSTARR analysis: https://colab.research.google.com/drive/11TA02v-azuqAIV5s3sCbWTH-C5W7_KMA?usp=sharing
+- Example ChIP-seq analysis: https://colab.research.google.com/drive/1fzpH2Qv8RFNzMvIDRJUGnUTaacFMIJBV?usp=sharing
