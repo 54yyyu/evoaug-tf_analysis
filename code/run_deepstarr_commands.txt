@@ -1,0 +1,10 @@
+python deepstarr_analysis.py R
+python deepstarr_analysis.py I
+python deepstarr_analysis.py T
+python deepstarr_analysis.py D
+python deepstarr_analysis.py M
+python deepstarr_analysis.py N
+python deepstarr_analysis.py ITN
+python deepstarr_analysis.py RITDMN
+python deepstarr_standard.py
+
